@@ -14,6 +14,7 @@ import Notfound from './notfound'
 import './index.css'
 import history from './helper/history';
 import PrivateRoute from './helper/privateroute'
+import Container from './container'
 // Import the index reducer and sagas
 import IndexReducer from './index-reducer'
 import IndexSagas from './index-sagas'
@@ -52,6 +53,7 @@ ReactDOM.render(
                     <Route path="/signup" component={Signup}/>
                     <Route path="/widgets" component={Widgets}/>
                     <Route path="/dashboard" component={Dashboard}/>
+                    <Route path="/container" component={Container}/>
                     <Route path="*" component={Notfound}/>
                 </Switch>
 

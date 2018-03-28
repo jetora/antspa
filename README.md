@@ -10,7 +10,6 @@ This repo is an example application that documents and walks through a complete 
 - "react-router-dom": "^4.2.2",
 - "react-scripts": "1.1.1",
 - "redux": "^3.7.2",
-- "redux-form": "^7.3.0",
 - "redux-saga": "^0.16.0",
 
 This Project is based on the flow,Thanks for the author...
